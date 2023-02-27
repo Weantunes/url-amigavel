@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="34.447" height="26.914" viewBox="0 0 34.447 26.914">
+  <path id="Icon_material-format-line-spacing" data-name="Icon material-format-line-spacing"
+    d="M9,10.5h3.75L7.5,5.25,2.25,10.5H6v15H2.25L7.5,30.75l5.25-5.25H9Zm6-3v3H33v-3Zm0,21H33v-3H15Zm0-9H33v-3H15Z"
+    transform="translate(-1.043 -4.543)" fill="none" />
+  <path id="Icon_material-format-line-spacing-2" data-name="Icon material-format-line-spacing"
+    d="M9,10.5h3.75L7.5,5.25,2.25,10.5H6v15H2.25L7.5,30.75l5.25-5.25H9Zm6-3v3H33v-3Zm0,21H33v-3H15Zm0-9H33v-3H15Z"
+    transform="translate(-1.043 -4.543)" fill="none" stroke="#09f" stroke-width="1" />
+  <rect id="Retângulo_6" data-name="Retângulo 6" width="22" height="23"
+    transform="translate(12.447 1.697)" fill="#fff" />
+  <g id="Icon_feather-menu" data-name="Icon feather-menu" transform="translate(10.61 -4.543)">
+    <path id="Caminho_1" data-name="Caminho 1" d="M4.5,18H22.347" fill="none" stroke="#09f"
+      stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" />
+    <path id="Caminho_2" data-name="Caminho 2" d="M4.5,9H22.347" fill="none" stroke="#09f"
+      stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" />
+    <path id="Caminho_3" data-name="Caminho 3" d="M22.347,27H4.5" fill="none" stroke="#09f"
+      stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" />
+  </g>
+</svg>
