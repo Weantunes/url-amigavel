@@ -7,6 +7,20 @@ textarea{ border-radius: 25px;box-shadow: 0px 0px 20px 8px #0000003d;padding: 25
 
 ul{list-style: none;}
 
+#alert p.sucesso{font-size: 18px; margin: 15px auto;color: rgb(32, 188, 32);
+animation: 3s ease-in 1s forwards alert;}
+#alert p.erro{font-size: 18px; margin: 15px auto;color: rgb(231, 30, 12);animation: 3s ease-in 1s forwards alert;}
+
+
+@keyframes alert {
+
+    to {
+        opacity: 0%;
+    }
+}
+
+
+
 .font1{font-size: 37px;font-weight: 700;margin: 4px auto 10px auto;display: inline-block;color: white;}
 .font2{font-size: 14px;font-weight: 100;color: white;}
 .font3{font-size: 16px;font-weight: 700;color: rgb(0, 0, 0); border-left: 4px solid #0099FF;padding-left: 5px;line-height: 1.5rem;}

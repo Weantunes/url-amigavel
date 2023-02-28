@@ -33,9 +33,9 @@ function copiar() {
     texto.toLowerCase();
     navigator.clipboard.writeText(texto)
         .then(() => {
-            alert('Texto copiado com sucesso!' + texto);
+            document.querySelector("#alert").innerHTML = '<p class="sucesso">TEXTO COPIADO COM SUCESSO!</p>'
         })
         .catch((erro) => {
-            alert('Erro ao copiar o texto:');
+            document.querySelector("#alert").innerHTML = '<p class="erro">ERRO AO COPIAR O TEXTO</p>'
         });
 }
