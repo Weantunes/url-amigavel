@@ -28,14 +28,15 @@ function active() {
 }
 
 function copiar() {
-    var textoCopiado = document.querySelector("#input");
-    const texto = textoCopiado.value;
-    texto.toLowerCase();
+    var textoCopiado = document.querySelector("#result");
+    var texto = textoCopiado.value;
+    texto = texto.toLowerCase(); // Certifique-se de atribuir o valor modificado de volta a 'texto'
+    
     navigator.clipboard.writeText(texto)
         .then(() => {
-            document.querySelector("#alert").innerHTML = '<p class="sucesso">TEXTO COPIADO COM SUCESSO!</p>'
+            document.querySelector("#alert").innerHTML = '<p class="sucesso">TEXTO COPIADO COM SUCESSO!</p>';
         })
         .catch((erro) => {
-            document.querySelector("#alert").innerHTML = '<p class="erro">ERRO AO COPIAR O TEXTO</p>'
+            document.querySelector("#alert").innerHTML = '<p class="erro">ERRO AO COPIAR O TEXTO</p>';
         });
 }
